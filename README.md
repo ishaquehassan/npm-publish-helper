@@ -6,24 +6,8 @@
 **Usage**
 ---------
 
-Simple run on android
+Publish Your Module!
 
-    rnrun
-Or
-    rnrun [option]
+    npmpublish
 
-Run with clean project
-
-    rnrun clean
-
-Assemble Release APK (It Will Clean It too, so no need for clean here)
-
-    rnrun build-release
-
-Open Apks Dir
-
-    rnrun show-apks
-
-To Prevent run with any option
-
-    rnrun [option] not-run
+And you will be asked for commit message, after that you are done... it will push your changes to origin remote @ master branch plus publish it to npm. Make Sure to update version in package.json!
