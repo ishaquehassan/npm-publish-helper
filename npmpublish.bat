@@ -11,5 +11,5 @@ IF NOT EXIST "package.json" (
 )
 
 SET /p commitMessage= "Please Enter Commit Message:"
-git add . && git commit -m "%commitMessage%" && npm publish
+git add . && git commit -m "%commitMessage%" && git push -u origin master && npm publish
 SET commitMessage=
